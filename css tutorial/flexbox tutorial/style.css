@@ -1,6 +1,8 @@
 .flex-container {
   display: flex;
    flex-direction: column; 
+   height:500px;
+   background-color: black;
 }
 
 /* this selector selects all divs inside of .flex-container */
@@ -8,6 +10,11 @@
   background: peachpuff;
   border: 4px solid brown;
   height: 80px;
-  width: 50px;
-  flex: 1 1 auto;
+  width: 500px;
+  /*adjust the size of the divs to fit the container*/
+  /* flex-grow: 1; */
+  flex:1 /* this is the same as flex: 1 1 0;
+  The item starts with size 0, ignoring its content size or width/height.
+So Flexbox will calculate layout only using flex-grow and flex-shrink */
+  /* flex: 1 1 auto; */
 }
