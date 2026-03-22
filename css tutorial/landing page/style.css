@@ -87,3 +87,94 @@ body{
     font-weight: 600;
     cursor: pointer;
 }
+.two-heading{
+    font-size:36px;
+    color:#1f2937;
+    font-weight: 900;
+    border-radius: 4px;
+    text-align: center;
+}
+.two{
+    padding: 10px 10% ;
+    
+}
+.two-body{
+    display:flex;
+    text-align: center;
+}
+.two-body div{
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.two-body div img{
+    width: 75%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+.two-body-one-text,
+.two-body-two-text,
+.two-body-three-text,
+.two-body-four-text{
+    text-align: center;
+    max-width:75%;
+    word-wrap: break-word;
+}
+.three{
+    background-color: #e5e7eb;
+    padding: 20px 20% ;
+}
+.three-quote{
+    font-size:36px;
+    color:#1f2937;
+    font-weight: 300;
+    word-wrap: break-word;
+    font-style: italic;
+}
+.three-name{
+    text-align: right;
+    font-weight: 700;
+    
+}
+.four{
+    padding: 50px 10% ;
+}
+.action-box{
+    background-color: rgb(87, 87, 239);
+    padding:30px 10%;
+    display: flex;
+}
+.action-box-text{
+    color:white;
+}
+.action-box-heading{
+    font-weight: 700;
+}
+.action-box-body{
+    color:whitesmoke
+}
+.sign-up{
+    padding-left: 20%;
+}
+.sign-up-button{
+    background-color: rgb(87, 87, 239);
+    border: 2px solid;
+    border-color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: auto;
+    
+}   
+.footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 2% 10%;
+}
+.footer-text{
+    text-align:center;
+}
