@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <img>
+  <script>
+    const image = document.querySelector('img');
+    fetch('https://api.giphy.com/v1/gifs/translate?api_key=mDx2PVgZdULmSeLSrOGGClIsqWNKHWkq&s=cats')
+    .then(function(response) {
+      return(response.json());
+    })
+    .then(function(response) {
+        console.log(response);
+      //console.log(response.data.url);
+    //response.data.images.url
+            console.log(response.data.images.original.url);  // Log the direct image URL for verification
+        image.src = response.data.images.original.url;
+     // image.src=response.data.url;
+    });
+  </script>
+</body>
+</html>
